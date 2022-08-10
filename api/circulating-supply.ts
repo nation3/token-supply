@@ -21,7 +21,15 @@ export default async (request: VercelRequest, response: VercelResponse) => {
     signer
   )
 
-  const totalSupply: BigNumber = await nationContract.totalSupply()
+  const supplies: BigNumber[] = await Promise.all([
+    nationContract.totalSupply(),
+    nationContract.balanceOf(process.env.TREASURY_ADDRESS),
+    nationContract.balanceOf(process.env.VENATION_ADDRESS),
+  ])
 
-  response.status(200).send(ethers.utils.formatUnits(totalSupply, 18))
+  const [totalSupply, treasurySupply, veNationSupply] = supplies
+
+  const circulatingSupply = totalSupply.sub(treasurySupply).sub(veNationSupply)
+
+  response.status(200).send(ethers.utils.formatUnits(circulatingSupply, 18))
 }
