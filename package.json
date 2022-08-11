@@ -1,6 +1,9 @@
 {
   "name": "token-supply",
   "license": "GPL-3.0",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "dotenv": "^16.0.1",
     "ethers": "^5.6.0"
