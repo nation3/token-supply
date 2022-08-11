@@ -13,12 +13,10 @@ export default async (request: VercelRequest, response: VercelResponse) => {
     quorum: 1,
   })
 
-  const signer = new ethers.Wallet(process.env.PRIVATE_KEY as string, provider)
-
   const nationContract = new ethers.Contract(
     process.env.NATION_ADDRESS as string,
     ERC20.abi,
-    signer
+    provider
   )
 
   const totalSupply: BigNumber = await nationContract.totalSupply()
