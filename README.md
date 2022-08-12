@@ -2,6 +2,20 @@
 
 REST API for CoinGecko and CoinMarketCap
 
+## Setup
+
+Install the dependencies:
+```
+yarn add --global vercel
+yarn install
+```
+
+Create the project:
+```
+vercel
+```
+
+Add variables to your environment:
 ```
 cp .env.sample .env
 ```
@@ -30,16 +44,3 @@ vercel --prod
 ```
 
 Then visit the production link.
-
-Build:
-```
-yarn build
-```
-
-Start the development server:
-```
-yarn dev
-```
-
-Then open http://localhost:3000 in a browser.
-
