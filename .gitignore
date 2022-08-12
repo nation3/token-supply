@@ -105,3 +105,6 @@ dist
 
 # Vercel IDs folder
 .vercel
+
+# Typescript compiler build output
+public
