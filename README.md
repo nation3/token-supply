@@ -6,7 +6,7 @@ REST API for CoinGecko and CoinMarketCap
 
 Install the dependencies:
 ```
-yarn add --global vercel
+yarn global add vercel
 yarn install
 ```
 
