@@ -1,26 +1,46 @@
 # token-supply
+
 REST API for CoinGecko and CoinMarketCap
 
-## Run the server locally
+## Setup
 
 Install the dependencies:
 ```
+yarn global add vercel
 yarn install
 ```
 
-Add variables to your local development environment:
+Create the project:
+```
+vercel
+```
+
+Add variables to your environment:
 ```
 cp .env.sample .env
 ```
 
-Build:
+## Deploy the serverless functions locally
+
+Local deployment:
 ```
-yarn build
+vercel dev
 ```
 
-Start the development server:
+Then open http://localhost:3000/api/total-supply or http://localhost:3000/api/circulating-supply in a browser.
+
+## Deploy the serverless functions to Vercel
+
+Preview deployment:
 ```
-yarn dev
+vercel
 ```
 
-Then open http://localhost:3000 in a browser.
+Then visit the preview link.
+
+Production deployment:
+```
+vercel --prod
+```
+
+Then visit the production link.

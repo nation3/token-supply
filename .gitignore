@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Vercel IDs folder
+.vercel
+
+# Typescript compiler build output
+public
