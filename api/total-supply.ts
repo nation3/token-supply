@@ -6,12 +6,7 @@ import ERC20 from '../abis/ERC20.json'
 dotenv.config()
 
 export default async (request: VercelRequest, response: VercelResponse) => {
-  const provider = ethers.getDefaultProvider(1, {
-    alchemy: process.env.ALCHEMY_ID,
-    infura: process.env.INFURA_ID,
-    etherscan: process.env.ETHERSCAN_ID,
-    quorum: 1,
-  })
+  const provider = new ethers.providers.JsonRpcProvider('https://rpc.ankr.com/eth')
 
   const nationContract = new ethers.Contract(
     process.env.NATION_ADDRESS as string,
