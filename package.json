@@ -5,7 +5,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "dotenv": "^16.0.1",
+    "dotenv": "^16.0.2",
     "ethers": "^5.7.1"
   },
   "devDependencies": {
