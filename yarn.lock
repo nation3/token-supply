@@ -2,29 +2,29 @@
 # yarn lockfile v1
 
 
-"@edge-runtime/format@^1.1.0-beta.23":
-  version "1.1.0-beta.26"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/format/-/format-1.1.0-beta.26.tgz#99e3f8dfe4ed5dd36376a2c4167ac67ed0259820"
-  integrity sha512-05wywSsBZVE1iMezvYXW1ZMak6y2riJPVmEDK9RW9BECazykJtYOOQ+GG+oVaicNfxh2YtQTQD/WaI/4K3yKWA==
+"@edge-runtime/format@^1.1.0-beta.32":
+  version "1.1.0-beta.33"
+  resolved "https://registry.yarnpkg.com/@edge-runtime/format/-/format-1.1.0-beta.33.tgz#bfba333b47167b0deb09b3df0d5e60d8c72d7c62"
+  integrity sha512-t34oTdZOqYSiguCGnt9GYzh9mrnhCHNRPGDvxt5PB5T3LZpSVk+vfSXRqpvTxy51sxQpxvTZry8QLC+E+Fm67w==
 
-"@edge-runtime/primitives@^1.1.0-beta.23", "@edge-runtime/primitives@^1.1.0-beta.26":
-  version "1.1.0-beta.26"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/primitives/-/primitives-1.1.0-beta.26.tgz#40b5b6314ae0615cb2ec3942a1d6007fa5b87f9e"
-  integrity sha512-SsbXbw2+bAHbcjAmT+e5WoADmU/yDO5glNFkYd/971Zo26cJoW/1W3n4IMm5gOtyvLHbezSRKt8t5GteX0wYdA==
+"@edge-runtime/primitives@^1.1.0-beta.32", "@edge-runtime/primitives@^1.1.0-beta.34":
+  version "1.1.0-beta.34"
+  resolved "https://registry.yarnpkg.com/@edge-runtime/primitives/-/primitives-1.1.0-beta.34.tgz#1920fad8ea03c0c3b677c77904ab1459e21ffe63"
+  integrity sha512-gFubu4qIqg1k6sOM2Ho/txFUE/vZCn057wGiY0NIQ8h6tySiUO5FULCaebPrp+Yfxb3ZCWqDLeWanQGFB3TYQQ==
 
-"@edge-runtime/vm@1.1.0-beta.23":
-  version "1.1.0-beta.23"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/vm/-/vm-1.1.0-beta.23.tgz#b55d9add18cb7bb57acf184f6cd7b6edec782a25"
-  integrity sha512-XBp3rCuX4scJVOo2KconAotL5XGX3zdd8IkfDNr5VVSQ/B6HkiTNuf+EvzSQTpplF+fiyLTpfcP9EbNLibwLTA==
+"@edge-runtime/vm@1.1.0-beta.32":
+  version "1.1.0-beta.32"
+  resolved "https://registry.yarnpkg.com/@edge-runtime/vm/-/vm-1.1.0-beta.32.tgz#1bc9c77a88343478d50009f30813b9fbf8a0f4ad"
+  integrity sha512-G0SH80am2XjlK6oFI3RoKlg1SBS5ZAeqakYasfNhJEXqM7g7tsoh5jURMQcNxpLvo48XBTgHgAVEMzhAGgDPZg==
   dependencies:
-    "@edge-runtime/primitives" "^1.1.0-beta.23"
+    "@edge-runtime/primitives" "^1.1.0-beta.32"
 
-"@edge-runtime/vm@^1.1.0-beta.23":
-  version "1.1.0-beta.26"
-  resolved "https://registry.yarnpkg.com/@edge-runtime/vm/-/vm-1.1.0-beta.26.tgz#87b8a877d3ab8955a282c1b3213f23b981e3234e"
-  integrity sha512-hxWtmuO13zgNkM3zHvRENfMeavM+PAKSoHhvzt+sHjSothxGlA06XXN38t/NT6LD4ND8p8FmPJ70+fTptL4a/A==
+"@edge-runtime/vm@^1.1.0-beta.32":
+  version "1.1.0-beta.34"
+  resolved "https://registry.yarnpkg.com/@edge-runtime/vm/-/vm-1.1.0-beta.34.tgz#e672e3567d35ba4f1676c3be998ed3ef51b67a31"
+  integrity sha512-1rLtF7pQTnBCkz+1vYsUXTeecJ+PJSqZDRlCUPZbw2C4E0qZzn6P9Zt0ed+lhofosPnMNiagXoVZIuEWZAkZaA==
   dependencies:
-    "@edge-runtime/primitives" "^1.1.0-beta.26"
+    "@edge-runtime/primitives" "^1.1.0-beta.34"
 
 "@ethersproject/abi@5.7.0", "@ethersproject/abi@^5.7.0":
   version "5.7.0"
@@ -409,27 +409,27 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.6.5.tgz#06caea822caf9e59d5034b695186ee74154d2802"
   integrity sha512-Xjt5ZGUa5WusGZJ4WJPbOT8QOqp6nDynVFRKcUt32bOgvXEoc6o085WNkYTMO7ifAj2isEfQQ2cseE+wT6jsRw==
 
-"@vercel/build-utils@5.3.1":
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-5.3.1.tgz#46a0e280e0e48d8a8f2a7e4e83cb263895ba312c"
-  integrity sha512-i+O40FAFgDSNPQbBA5pNQURukA+4E0e560ylamPytNgPjiaj83fR1uV1XYxUAZFxlRNG93HSrKEwG6/Xx3F3bg==
+"@vercel/build-utils@5.5.3":
+  version "5.5.3"
+  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-5.5.3.tgz#cee00400dbdec0081ca2e6ce011480333c0a39bf"
+  integrity sha512-T4MYD87rwocybIQzv4giRFYiisQqFLZOsPXn5tglQfnsB0DJM47l8VW9oFgGX2cJyp/px7C/ovdLrhwY/XWhYQ==
 
 "@vercel/node-bridge@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@vercel/node-bridge/-/node-bridge-3.0.0.tgz#443655b74713ec65531726fb5a30c5c528c804bf"
   integrity sha512-TNQK6cufwrhd8ASDk5YHHenH8Xhp9sY8xUjOTKnQQI37KLk+Sw2HlHhT5rzUFN23ahosUlkY8InwtYUmSNb9kw==
 
-"@vercel/node@^2.5.8":
-  version "2.5.8"
-  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.5.8.tgz#c322d852599c561f67e9516ad6ed5711bbba3971"
-  integrity sha512-LzS2NAbz85CJUxw8RbWnPV8U8O9/D6r35s4scXP94yz4xgysW0ErlhLSBUfl0uTLhOEjjcm+OMcvWR63p6z+Gw==
+"@vercel/node@^2.5.21":
+  version "2.5.21"
+  resolved "https://registry.yarnpkg.com/@vercel/node/-/node-2.5.21.tgz#479b939ba2c6c71d07288563062fa54e6b43595a"
+  integrity sha512-sJajTZYCDl4euWHuOgL5xzR7eLyi5Xv58j/QgI0tkOhMrREpqW9Jv2K2eSRDDuPDMbUgqqK14LodHApLlenizA==
   dependencies:
-    "@edge-runtime/vm" "1.1.0-beta.23"
+    "@edge-runtime/vm" "1.1.0-beta.32"
     "@types/node" "*"
-    "@vercel/build-utils" "5.3.1"
+    "@vercel/build-utils" "5.5.3"
     "@vercel/node-bridge" "3.0.0"
     "@vercel/static-config" "2.0.3"
-    edge-runtime "1.1.0-beta.23"
+    edge-runtime "1.1.0-beta.32"
     esbuild "0.14.47"
     exit-hook "2.2.1"
     node-fetch "2.6.7"
@@ -535,13 +535,13 @@ dotenv@^16.0.2:
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.2.tgz#0b0f8652c016a3858ef795024508cddc4bffc5bf"
   integrity sha512-JvpYKUmzQhYoIFgK2MOnF3bciIZoItIIoryihy0rIA+H4Jy0FmgyKYAHCTN98P5ybGSJcIFbh6QKeJdtZd1qhA==
 
-edge-runtime@1.1.0-beta.23:
-  version "1.1.0-beta.23"
-  resolved "https://registry.yarnpkg.com/edge-runtime/-/edge-runtime-1.1.0-beta.23.tgz#fd4d93f021c622e9b188399fa83e6bd5e445cb5e"
-  integrity sha512-A7dO/Y+4UJnaxFcdz6pepL+0GcvvViWvf201oFQXepgdSxPDKiqxaayCag0eiirQ6OfF+cSTmPD3xrfEoAIjiQ==
+edge-runtime@1.1.0-beta.32:
+  version "1.1.0-beta.32"
+  resolved "https://registry.yarnpkg.com/edge-runtime/-/edge-runtime-1.1.0-beta.32.tgz#e43fd53c57fdba3c567b3fef50743cba00ff5e49"
+  integrity sha512-fbqqUF3OKynqtWgExhjyxXX2SwbkWuwmjUYhml3Sv8Y/vkrTxyTKrxS0MoxUy5sGPB3BBEtpopn36cQgwlOpAg==
   dependencies:
-    "@edge-runtime/format" "^1.1.0-beta.23"
-    "@edge-runtime/vm" "^1.1.0-beta.23"
+    "@edge-runtime/format" "^1.1.0-beta.32"
+    "@edge-runtime/vm" "^1.1.0-beta.32"
     exit-hook "2.2.1"
     http-status "1.5.2"
     mri "1.2.0"
