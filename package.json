@@ -9,7 +9,7 @@
     "ethers": "^5.7.1"
   },
   "devDependencies": {
-    "@vercel/node": "^2.5.24",
+    "@vercel/node": "^2.5.25",
     "prettier": "^2.7.1",
     "typescript": "^4.8.4"
   }
