@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "ethers": "^5.7.1"
+    "ethers": "^5.7.2"
   },
   "devDependencies": {
     "@vercel/node": "^2.5.26",
