@@ -19,11 +19,12 @@ export default async (request: VercelRequest, response: VercelResponse) => {
     nationContract.balanceOf(process.env.GOVERN_TREASURY_ADDRESS),
     nationContract.balanceOf(process.env.OSX_TREASURY_ADDRESS),
     nationContract.balanceOf(process.env.VENATION_ADDRESS),
+    nationContract.balanceOf(process.env.OPS_GUILD_ADDRESS)
   ])
 
-  const [totalSupply, governTreasurySupply, osxTreasurySupply, veNationSupply] = supplies
+  const [totalSupply, governTreasurySupply, osxTreasurySupply, veNationSupply, opsGuildSupply] = supplies
 
-  const circulatingSupply = totalSupply.sub(governTreasurySupply).sub(osxTreasurySupply).sub(veNationSupply)
+  const circulatingSupply = totalSupply.sub(governTreasurySupply).sub(osxTreasurySupply).sub(veNationSupply).sub(opsGuildSupply)
 
   response.status(200).send(ethers.utils.formatUnits(circulatingSupply, 18))
 }
